@@ -4,7 +4,7 @@ import { API_URL } from "@/config/index";
 /* eslint import/no-anonymous-default-export: [2, {"allowArrowFunction": true}] */
 export default async (req, res) => {
   if (req.method === "GET") {
-    if (!res.headers.cookie) {
+    if (!req.headers.cookie) {
       res.status(403).json({ message: "Not Authorized" });
       return;
     } else {
