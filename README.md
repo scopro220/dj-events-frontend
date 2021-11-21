@@ -1,6 +1,8 @@
-# Next JS - DJ Events Web Application
+# Next JS - DJ Events Web Application (Strapi backend)
 
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+
+![Strapi](https://img.shields.io/badge/Strapi-8c4bff?style=for-the-badge&logo=strapi&logoColor=white)
 
 Frontend hosted on [Vercel](https://vercel.com)
 
