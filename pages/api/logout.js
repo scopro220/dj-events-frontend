@@ -1,5 +1,4 @@
 import cookie from "cookie";
-import { API_URL } from "@/config/index";
 
 /* eslint import/no-anonymous-default-export: [2, {"allowArrowFunction": true}] */
 export default async (req, res) => {
